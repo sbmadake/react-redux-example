@@ -1,0 +1,20 @@
+1] npm install gh-pages --save-dev
+
+2] Git repository
+
+3] copy link
+
+4] git remote add origin paste the link
+
+5] open package.json
+   "homepage":"http:/sbmadake.github.io/react_upload ... github repo link
+
+6] script:
+    "predeploye": "npm run build"
+    "deploy":"gh-pages -d build"
+
+7] npm run deploy
+
+
+8] open url 
+
